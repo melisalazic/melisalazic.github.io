@@ -10,10 +10,6 @@ This portfolio serves to showcase my skills as well as to display my recent proj
 HTML, SASS, Bootstrap 5, jQuery and JS. The Lightbox is made with the Magnific Popup --> https://github.com/dimsemenov/Magnific-Popup
 
 
-## Why Github Pages?
-Right now, my site is not that large so I decided to host it here.
-
-
 ## Did you make the images?
 Yes, all images, the logo and the 3 SVGs are made by me. Except the 2 FontAwesome Icons.
 
