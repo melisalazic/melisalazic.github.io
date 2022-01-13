@@ -7,8 +7,7 @@ This portfolio serves to showcase my skills as well as to display my recent proj
 
 
 ## With what is the site build?
-HTML, SASS, Bootstrap 5, jQuery and JS. 
-(Maybe in the future, I'll rebuild the site with REACT.)
+HTML, SASS, Bootstrap 5, jQuery and JS. The Lightbox is made with the Magnific Popup --> https://github.com/dimsemenov/Magnific-Popup
 
 
 ## Why Github Pages?
