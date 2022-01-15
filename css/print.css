@@ -1,0 +1,59 @@
+@media print {
+
+    html, body {
+        height: 100%;
+        width: 100%;
+    }
+    body {
+        font-family: 'Raleway', sans-serif;
+        background-color: #FCDDD9;
+        color: #321d33;
+    }
+
+    .navbar {
+        position: relative;
+    }
+
+    
+    .navbar-collapse, #navbarNavAltMarkup, #navbar-toggler, .menu-wrapper {
+        display: none;
+    }
+
+    footer {
+        background-color: #ee7674;
+    }
+    section {
+        margin-bottom: 100px;
+    }
+
+    .hidden-right, .hidden-bottom, .hidden-fade {
+        opacity: 1;
+    }
+    p, .bg-info {
+        font-size: 19px;
+    }
+    h1, .bts-h1 {
+        font-size: 50px;
+    }
+    h4 {
+        font-size: 23px;
+    }
+    .me, .img-main {
+        height: 400px;
+        width: auto;
+    }
+
+    .container-overlay .project-img {
+        opacity: 0;
+    }
+
+    .overlay {
+        height: 200px;
+    }
+
+    .btn-primary, .btn-info, .badge {
+        color: #321d33;
+        background-color: #9dbf9e;
+        font-weight: 800;
+    }
+}
