@@ -57,13 +57,13 @@ $('.gallery-item').magnificPopup({
     midClick: true // allow opening popup on middle mouse click.
 });
 
-/* Animate Elements when scrolled to height by adding and removing classes (needs refinement) */
+/* Animate Elements when scrolled to height by adding and removing classes (needs refinement!) */
 (function() {
     var elements;
     var windowHeight;
   
     function init() {
-      elements = document.querySelectorAll('.hidden-right, .hidden-bottom, .hidden-fade');
+      elements = document.querySelectorAll('.hidden-right, .hidden-bottom, .hidden-fade, .line-hidden');
       windowHeight = window.innerHeight;
     }
   
@@ -72,7 +72,7 @@ $('.gallery-item').magnificPopup({
         var element = elements[i];
         var positionFromTop = elements[i].getBoundingClientRect().top;
   
-        if (positionFromTop - windowHeight <= -50) {
+        if (positionFromTop - windowHeight <= -100) {
             if (element.classList.contains('hidden-right')){
                 element.classList.add('element-right');
                 element.classList.remove('hidden-right');
@@ -82,6 +82,9 @@ $('.gallery-item').magnificPopup({
             } else if (element.classList.contains('hidden-bottom')) {
                 element.classList.add('text-animated-bottom');
                 element.classList.remove('hidden-bottom');
+            } else if (element.classList.contains('line-hidden')) {
+                element.classList.add('line');
+                element.classList.remove('line-hidden');
             }
            
         }
