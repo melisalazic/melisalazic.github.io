@@ -1,12 +1,13 @@
 /* Colors */
-html, body {
+html,
+body {
   height: 100%;
   width: 100%;
 }
 
 body {
   font-family: "Raleway", sans-serif;
-  background: #FCDDD9;
+  background: #fcddd9;
   color: #321d33;
 }
 
@@ -15,7 +16,7 @@ body {
   box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.2);
 }
 .navbar a {
-  color: #FFFFFF;
+  color: #ffffff;
   font-weight: 800;
 }
 
@@ -245,12 +246,12 @@ body {
   height: 2px;
   left: 50%;
   position: absolute;
-  background: #FCDDD9;
+  background: #fcddd9;
   transition: width 0.3s ease 0s, left 0.3s ease 0s;
   width: 0;
 }
 .navbar-nav li a:hover {
-  color: #FCDDD9;
+  color: #fcddd9;
 }
 .navbar-nav li a:hover:after {
   width: 100%;
@@ -280,7 +281,7 @@ body {
 }
 
 footer {
-  color: #FFFFFF;
+  color: #ffffff;
   position: relative;
   background-color: #ee7674;
   padding: 36px 0 20px;
@@ -306,7 +307,7 @@ footer .footer-icons ul li a {
   margin: 0;
 }
 footer .footer-icons ul li a:hover {
-  background-color: #FFFFFF;
+  background-color: #ffffff;
   transition: 0.3s;
   text-decoration: none;
 }
@@ -317,21 +318,22 @@ footer .footer-icons ul li a:hover {
 }
 .contact-links ul a {
   text-decoration: none;
-  color: #FFFFFF;
+  color: #ffffff;
   font-weight: 800;
   font-size: inherit;
   padding: 0;
   margin: 0;
 }
 .contact-links ul a:hover {
-  color: #FCDDD9;
-  text-decoration: #FCDDD9 wavy underline;
+  color: #fcddd9;
+  text-decoration: #fcddd9 wavy underline;
   transition: 0.3s;
   text-underline-offset: 0.1em;
   text-underline-offset: 3px;
 }
 
-ol, ul {
+ol,
+ul {
   padding-left: 1rem;
 }
 
@@ -421,12 +423,17 @@ ol, ul {
   animation: fade-in 1.2s forwards;
 }
 
-.title-main, .element-right, .me, .img-main {
+.title-main,
+.element-right,
+.me,
+.img-main {
   position: relative;
   animation-fill-mode: forwards;
 }
 
-.hidden-right, .hidden-bottom, .hidden-fade {
+.hidden-right,
+.hidden-bottom,
+.hidden-fade {
   opacity: 0;
 }
 
@@ -453,7 +460,8 @@ ol, ul {
   font-weight: 800;
 }
 
-p, .bg-info {
+p,
+.bg-info {
   font-size: 16.15px;
 }
 
@@ -462,7 +470,8 @@ h1 {
   margin-bottom: 20px !important;
 }
 
-h1, .bts-h1 {
+h1,
+.bts-h1 {
   margin-bottom: 10px;
   font-size: 37.5px;
   font-weight: 800;
@@ -475,7 +484,11 @@ h4 {
   position: relative;
 }
 
-#main-section, #work-section, #description-section, #about-section, #contact-section {
+#main-section,
+#work-section,
+#description-section,
+#about-section,
+#contact-section {
   padding-top: 100px;
 }
 
@@ -508,9 +521,10 @@ h4 {
 .overlay .bt-h1 {
   color: #ee7674;
 }
-.overlay .bt-tags, .overlay .bt-info {
+.overlay .bt-tags,
+.overlay .bt-info {
   font-size: 15px;
-  color: #FFFFFF;
+  color: #ffffff;
 }
 
 .container-overlay {
@@ -575,7 +589,8 @@ h4 {
   animation-name: rubberBand;
 }
 
-.btn-primary, .btn-info {
+.btn-primary,
+.btn-info {
   font-family: "Raleway", sans-serif;
   font-weight: 800;
   background-color: #9dbf9e;
@@ -584,11 +599,15 @@ h4 {
   border: none;
   color: #321d33;
 }
-.btn-primary:hover, .btn-info:hover {
+.btn-primary:hover,
+.btn-info:hover {
   background-color: #d0d6b5;
   color: #321d33;
 }
-.btn-primary:active, .btn-primary :visited, .btn-info:active, .btn-info :visited {
+.btn-primary:active,
+.btn-primary :visited,
+.btn-info:active,
+.btn-info :visited {
   background-color: #d0d6b5 !important;
 }
 
@@ -663,31 +682,6 @@ h4 {
   transition: 0.5s ease;
 }
 
-#inner #tabs {
-  padding: 0;
-  color: #FFFFFF;
-  overflow-x: scroll;
-  display: flex;
-}
-#inner #tabs li {
-  background-color: #9dbf9e;
-  font-weight: 800;
-  color: #321d33;
-  list-style: none;
-  border: none;
-  padding: 20px;
-  transition: 0.3s;
-}
-#inner #tabs li.inactive {
-  background-color: #ee7674;
-  color: #FFFFFF;
-}
-#inner #tabs li.inactive:hover {
-  background-color: #d0d6b5;
-  color: #321d33;
-  cursor: pointer;
-}
-
 .line {
   opacity: 1;
   stroke-dasharray: 1300;
@@ -714,6 +708,37 @@ h4 {
     stroke-dashoffset: 0;
   }
 }
+/* width */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #ffffff;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #d0d6b5;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #9dbf9e;
+}
+
+::-moz-selection {
+  /* Code for Firefox */
+  color: #321d33;
+  background: #9dbf9e;
+}
+
+::selection {
+  color: #321d33;
+  background: #9dbf9e;
+}
+
 @media (min-width: 576px) {
   p {
     -webkit-hyphenate-limit-chars: auto 3;
@@ -737,7 +762,11 @@ h4 {
   }
 }
 @media (min-width: 768px) {
-  #main-section, #work-section, #description-section, #about-section, #contact-section {
+  #main-section,
+#work-section,
+#description-section,
+#about-section,
+#contact-section {
     padding-top: 165px;
   }
 
@@ -767,31 +796,18 @@ h4 {
     width: 30%;
   }
 
-  p, .bg-info {
+  p,
+.bg-info {
     font-size: 16.15px;
   }
 
-  h1, .bts-h1 {
+  h1,
+.bts-h1 {
     font-size: 42.5px;
   }
 
   h4 {
     font-size: 19.55px;
-  }
-
-  #inner {
-    display: flex;
-  }
-  #inner #tabs {
-    padding: 0;
-    overflow: hidden;
-    color: #FFFFFF;
-    width: 200px;
-    overflow-x: hidden;
-    display: block;
-  }
-  #inner .tab-container {
-    margin-left: 20px;
   }
 
   .my-img {
@@ -803,7 +819,11 @@ h4 {
   }
 }
 @media (min-width: 992px) {
-  #main-section, #work-section, #description-section, #about-section, #contact-section {
+  #main-section,
+#work-section,
+#description-section,
+#about-section,
+#contact-section {
     padding-top: 200px;
   }
 
@@ -825,11 +845,13 @@ h4 {
     width: 18%;
   }
 
-  p, .bg-info {
+  p,
+.bg-info {
     font-size: 19px;
   }
 
-  h1, .bts-h1 {
+  h1,
+.bts-h1 {
     font-size: 50px;
   }
 
